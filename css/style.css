@@ -1,0 +1,150 @@
+body{
+    color:  #282630;
+}
+a{
+    
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+}
+
+.wrap{
+    padding: 32px 56px;   
+}
+.container{
+    max-width: 1663px;
+    margin: 0 auto;
+
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #282630;
+
+}
+.menu-list{
+    display: flex;
+
+}
+.menu-list-item{
+    display: block;
+    margin-right: 56px;
+}
+.menu-link{
+    display: block;
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+.search{
+    margin-right: 40px;
+}
+.header-img{
+    position: relative;
+    margin: 42px 0 0 141px;
+}
+/* .header-img::after,
+.header-img::before{
+    content: "";
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #FEE382;
+}
+.header-img::before{
+    width: 801px;
+    height: 801px;
+    top: -73px;
+    left: -70px
+}
+.header-img::after{
+    width: 1083px;
+    height: 1083px;
+    top: -250px;
+    left: -180px;
+}
+.tomato{
+    position: absolute;
+
+}
+.tomato-first{
+    top: 347px;
+}
+.tomato-second{
+    z-index: 2;
+    top: 65px;
+   right: 430px;
+} */
+.title{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 144px;
+/* identical to box height */
+
+
+/* 01 */
+
+color: #282630;
+}
+.offer{
+    margin-right: 200px;
+}
+.intro{
+    max-width: 474px;
+    font-family: Cabin;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 150%;
+/* or 33px */
+
+
+/* 02 */
+
+color: #65636A;
+}
+.btn{
+    display: inline-block;
+    margin-right: 24px;
+    background: #FEE382;
+    border-radius: 25px;
+    padding: 11px 21px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+/* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+/* 01 */
+
+    color: #282630;
+
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-size: 20px;
+    padding-bottom: 164px;
+}
+.social a{
+    margin-bottom: 40px;
+}
